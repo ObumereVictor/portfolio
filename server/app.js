@@ -10,7 +10,7 @@ app.get("/", (request, response, next) => {
     "Content-Type": "application/blob",
     "Content-Disposition": "attachment; filename=VICTORScv.pdf",
     "Content-Transfer-Encoding": "Binary",
-    "Access-Control-Allow-Origin": "http://localhost:3000",
+    "Access-Control-Allow-Origin": "https://victor-obumere.netlify.app/",
   });
 
   src.pipe(response);
