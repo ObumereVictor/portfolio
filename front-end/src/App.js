@@ -99,7 +99,7 @@ const Home = () => {
           <a
             className="resume"
             href="https://api-victor-obumere-jg5b.onrender.com"
-            download={"Victor-obumere-CV.pdf"}
+            download={"Victor-Obumere-CV.pdf"}
           >
             Resume
           </a>
