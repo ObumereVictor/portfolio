@@ -5,7 +5,9 @@ const path = require("path");
 const port = 3001;
 
 app.get("/", (request, response, next) => {
-  const src = fs.createReadStream(path.resolve(__dirname, "./VICTORScv.pdf"));
+  const src = fs.createReadStream(
+    path.resolve(__dirname, "./Victor-Obumere-CV.pdf")
+  );
   response.writeHead(200, {
     "Content-Type": "application/blob",
     "Content-Disposition": "attachment; filename=VICTORScv.pdf",

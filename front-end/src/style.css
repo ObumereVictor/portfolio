@@ -314,6 +314,7 @@ a {
   background: linear-gradient(to left, #fff 50%, lightblue 50%) right;
   background-size: 200%;
   transition: 0.5s ease-out;
+  color: #000;
 }
 .contact a:hover {
   background-position: left;
