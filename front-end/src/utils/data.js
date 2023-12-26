@@ -23,7 +23,7 @@ const projectData = [
     about:
       "Spelling is a lifelong skill that your child will use every day, no matter the career they choose later in life. Are you looking to introduce new words to your kids? Try out this game built by me",
     link: "https://alt-spelling-game.onrender.com",
-    gitHub: null,
+    gitHub: "https://github.com/ObumereVictor/Kids-Game",
     lang: ["HTML", "CSS", "Javascript", "React", "NodeJS"],
   },
 ];
